@@ -1,0 +1,8 @@
+{
+  "name": "boleto-utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Utility functions for handling boletos",
+  "author": "GuGustavu",
+  "license": "MIT"
+}

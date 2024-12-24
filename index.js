@@ -147,5 +147,7 @@ export default function onInputDigitableLine(input, callbackInputVencimento, cal
     }
 
     
-    //referencia: https://www.macoratti.net/07/10/net_bol.htm e https://cmsarquivos.febraban.org.br/Arquivos/documentos/PDF/Layout%20-%20C%C3%B3digo%20de%20Barras%20ATUALIZADO.pdf
+    //referência: https://www.macoratti.net/07/10/net_bol.htm e https://cmsarquivos.febraban.org.br/Arquivos/documentos/PDF/Layout%20-%20C%C3%B3digo%20de%20Barras%20ATUALIZADO.pdf
 }
+
+window.onInputDigitableLine = onInputDigitableLine;

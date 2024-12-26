@@ -1,4 +1,4 @@
-# 🏷️ ![Barcode_27025 (1)](https://github.com/user-attachments/assets/514e0888-b556-4e77-8f1d-1526204da492) Função: onInputDigitableLine 
+# ![Barcode_27025 (1)](https://github.com/user-attachments/assets/514e0888-b556-4e77-8f1d-1526204da492) Função: onInputDigitableLine 
 
 Essa função é utilizada para processar e validar a entrada de uma linha digitável de boletos bancários.  
 Com base no formato e nas regras de cálculo de módulos 10 e 11, a função valida os dados da linha digitável,  
@@ -30,7 +30,7 @@ Adicione o seguinte script em sua página HTML:
 
 ```html
 <script type="module">
-import 'https://cdn.jsdelivr.net/gh/GuGustavu/Boleto_Utils@d0e92c3/index.js';
+import 'https://cdn.jsdelivr.net/gh/GuGustavu/Boleto_Utils/index.js';
 </script>
 
 <input type="text" id="linha-digitavel" oninput="onInputDigitableLine(this, vencimentoInput, valorInput)">
@@ -48,7 +48,7 @@ Importe o módulo em seu JavaScript e chame a função diretamente:
 
 ```javascript
 // Importando como módulo
-import onInputDigitableLine from 'https://cdn.jsdelivr.net/gh/GuGustavu/Boleto_Utils@d0e92c3/index.js';
+import onInputDigitableLine from 'https://cdn.jsdelivr.net/gh/GuGustavu/Boleto_Utils/index.js';
 
 // Elementos HTML
 const input = document.getElementById('linha-digitavel');
